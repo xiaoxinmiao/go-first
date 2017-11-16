@@ -9,6 +9,9 @@ import (
 /*
 1.写一套水果的api，要求包括增删改查
 其中，数据库，自己用全局变量的集合模拟
+参考：
+1.http://go-echo.org/
+
 */
 func Hw2() {
 	Data()
@@ -18,7 +21,7 @@ func Hw2() {
 	e.POST("/fruits", PostFruit)
 	e.PUT("/fruits/:id", PutFruit)
 	e.DELETE("/fruits/:id", DeleteFruit)
-	e.Start(":5000")
+	e.Start(":5001")
 
 }
 
