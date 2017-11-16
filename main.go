@@ -1,12 +1,10 @@
 package main
 
-import (
-	"gofirst/hw"
-	"gofirst/lesson"
-)
+import "go-first/hw"
 
 func main() {
-	hw.Hw1()
-	lesson.First()
-
+	// hw.Hw1()
+	// lesson.First()
+	//lesson.Second()
+	hw.Hw2()
 }
